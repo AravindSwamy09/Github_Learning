@@ -8,5 +8,6 @@ target 'NewTest' do
   # Pods for NewTest
 
 pod 'SwiftyJSON'
+pod 'IQKeyboardManager', '~> 4.0'
 
 end
