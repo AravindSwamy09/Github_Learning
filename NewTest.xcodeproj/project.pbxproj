@@ -13,6 +13,10 @@
 		490023411EB30F4A000186E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4900233F1EB30F4A000186E9 /* Main.storyboard */; };
 		490023431EB30F4A000186E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490023421EB30F4A000186E9 /* Assets.xcassets */; };
 		490023461EB30F4A000186E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490023441EB30F4A000186E9 /* LaunchScreen.storyboard */; };
+		4900234E1EB32BB2000186E9 /* Ace-OnePiece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900234D1EB32BB2000186E9 /* Ace-OnePiece.jpg */; };
+		490023581EB34923000186E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490023571EB34923000186E9 /* HomeViewController.swift */; };
+		4900235B1EB353C4000186E9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4900235A1EB353C4000186E9 /* AssetsLibrary.framework */; };
+		4900235D1EB359E1000186E9 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900235C1EB359E1000186E9 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		490023421EB30F4A000186E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490023451EB30F4A000186E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490023471EB30F4A000186E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4900234D1EB32BB2000186E9 /* Ace-OnePiece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ace-OnePiece.jpg"; path = "../../../../Downloads/Ace-OnePiece.jpg"; sourceTree = "<group>"; };
+		490023571EB34923000186E9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		490023591EB349D2000186E9 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		4900235A1EB353C4000186E9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4900235C1EB359E1000186E9 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		5426A4C1DB9CA0F9B85A4994 /* Pods-NewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewTest/Pods-NewTest.release.xcconfig"; sourceTree = "<group>"; };
 		8304D665A81F1A499C3005CF /* Pods_NewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -33,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4900235B1EB353C4000186E9 /* AssetsLibrary.framework in Frameworks */,
 				31E7A4236332EC0A7B0BF08E /* Pods_NewTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,10 +73,14 @@
 			children = (
 				4900233B1EB30F4A000186E9 /* AppDelegate.swift */,
 				4900233D1EB30F4A000186E9 /* ViewController.swift */,
+				490023571EB34923000186E9 /* HomeViewController.swift */,
+				4900235C1EB359E1000186E9 /* EditViewController.swift */,
+				490023591EB349D2000186E9 /* BridgeHeader.h */,
 				4900233F1EB30F4A000186E9 /* Main.storyboard */,
 				490023421EB30F4A000186E9 /* Assets.xcassets */,
 				490023441EB30F4A000186E9 /* LaunchScreen.storyboard */,
 				490023471EB30F4A000186E9 /* Info.plist */,
+				4900234D1EB32BB2000186E9 /* Ace-OnePiece.jpg */,
 			);
 			path = NewTest;
 			sourceTree = "<group>";
@@ -83,6 +97,7 @@
 		7A84FB06A75B069AD6A53198 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4900235A1EB353C4000186E9 /* AssetsLibrary.framework */,
 				8304D665A81F1A499C3005CF /* Pods_NewTest.framework */,
 			);
 			name = Frameworks;
@@ -151,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490023461EB30F4A000186E9 /* LaunchScreen.storyboard in Resources */,
+				4900234E1EB32BB2000186E9 /* Ace-OnePiece.jpg in Resources */,
 				490023431EB30F4A000186E9 /* Assets.xcassets in Resources */,
 				490023411EB30F4A000186E9 /* Main.storyboard in Resources */,
 			);
@@ -211,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490023581EB34923000186E9 /* HomeViewController.swift in Sources */,
 				4900233E1EB30F4A000186E9 /* ViewController.swift in Sources */,
+				4900235D1EB359E1000186E9 /* EditViewController.swift in Sources */,
 				4900233C1EB30F4A000186E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ngagroupinc.NewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = NewTest/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -355,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ngagroupinc.NewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = NewTest/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -378,6 +398,7 @@
 				4900234C1EB30F4A000186E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

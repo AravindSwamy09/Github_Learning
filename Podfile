@@ -7,7 +7,9 @@ target 'NewTest' do
 
   # Pods for NewTest
 
-pod 'SwiftyJSON'
+pod 'Alamofire', '~> 4.4'
 pod 'IQKeyboardManager', '~> 4.0'
+pod 'BVCropPhoto', '~> 1.0
+
 
 end

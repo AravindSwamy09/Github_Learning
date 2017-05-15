@@ -1,0 +1,6 @@
+framework module BVCropPhoto {
+  umbrella header "BVCropPhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}

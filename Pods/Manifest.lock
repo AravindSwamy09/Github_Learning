@@ -1,15 +1,15 @@
 PODS:
+  - BVCropPhoto (1.0.0)
   - IQKeyboardManager (4.0.9)
-  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
+  - BVCropPhoto (~> 1.0)
   - IQKeyboardManager (~> 4.0)
-  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  BVCropPhoto: 69d8847b7ddf383d7543a78bac2e1bfc2dce0855
   IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 86aba3099a7871c7cce0359cc7933c99d338035a
+PODFILE CHECKSUM: 93cf930463feef4fd77596083cbbb26816b622a5
 
 COCOAPODS: 1.1.1
